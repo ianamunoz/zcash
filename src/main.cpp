@@ -2408,7 +2408,6 @@ bool DisconnectBlock(CBlock& block, CValidationState& state, CBlockIndex* pindex
 
             }
         }
-    }
 
     // set the old best anchor back
     view.PopAnchor(blockUndo.old_tree_root);
